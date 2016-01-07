@@ -9,7 +9,8 @@
             "StrictSemanticVersionValidationRule"
         ],
         "packages": {
-            "Microsoft.Extensions.MemoryPool": { },
+            "Microsoft.Extensions.CommandLineUtils": { },
+            "Microsoft.Extensions.ObjectPool": { },
             "Microsoft.Extensions.Primitives": { }
         }
     },

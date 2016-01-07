@@ -1,22 +1,10 @@
 {
   "dependencies": {
-<<<<<<< HEAD
-    "Microsoft.Extensions.Primitives": "1.0.0-rc1-final",
-    "xunit.runner.aspnet": "2.0.0-aspnet-rc1-final"
-  },
-  "commands": {
-    "test": "xunit.runner.aspnet"
-=======
-    "Microsoft.Extensions.Primitives": "1.0.0-*",
+    "Microsoft.Extensions.CommandLineUtils": "1.0.0-*",
     "xunit": "2.1.0"
->>>>>>> refs/remotes/aspnet/dev
   },
   "testRunner": "xunit",
   "frameworks": {
-<<<<<<< HEAD
-    "dnx451": {},
-    "dnxcore50": {}
-=======
     "dnx451": {
       "frameworkAssemblies": {
         "System.Runtime": "",
@@ -33,8 +21,7 @@
       }
     }
   },
-  "commands": {		
-    "test": "xunit.runner.aspnet"		
->>>>>>> refs/remotes/aspnet/dev
+  "commands": {
+    "test": "xunit.runner.aspnet"
   }
 }

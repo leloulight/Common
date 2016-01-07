@@ -79,7 +79,6 @@ namespace Microsoft.Extensions.Internal
             {
                 if (_valueSetter == null)
                 {
-                    // We'll allow safe races here.
                     _valueSetter = MakeFastPropertySetter(Property);
                 }
 
@@ -152,7 +151,7 @@ namespace Microsoft.Extensions.Internal
 
         /// <summary>
         /// <para>
-        /// Creates a caches fast property helpers that expose getters for every non-hidden get property
+        /// Creates and caches fast property helpers that expose getters for every non-hidden get property
         /// on the specified type.
         /// </para>
         /// <para>
